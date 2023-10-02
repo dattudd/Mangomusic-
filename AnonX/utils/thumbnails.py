@@ -110,10 +110,10 @@ async def gen_thumb(videoid, user_id):
         crop_img = Image.open(f"cache/cropped{videoid}.png")
         logo = crop_img.convert("RGBA")
         logo.thumbnail((385, 385), Image.LANCZOS)
-        width = int((1280 - 380) / 1.22)
+        width = int((1280 - 380) / 10)
         background = Image.open(f"cache/temp{videoid}.png")
         background.paste(logo, (width + 1, 28), mask=logo)
-        background.paste(x, (965, 420), mask=x)
+        background.paste(x, (1000, 500), mask=x)
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
@@ -125,32 +125,13 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (70, 25),
-                f"STARTED PLAYING...",
+                f"𝐒STARTED PLAYING...",
                 fill="white",
                 stroke_width=5,
                 stroke_fill="black",
                 font=arial,
             )
-            if para[0]:
-                text_w, text_h = draw.textsize(f"{para[0]}", font=font)
-                draw.text(
-                    (110, 130),
-                    f"{para[0]}",
-                    fill="white",
-                    stroke_width=1,
-                    stroke_fill="yellow",
-                    font=font,
-                )
-            if para[1]:
-                text_w, text_h = draw.textsize(f"{para[1]}", font=font)
-                draw.text(
-                    (110, 183),
-                    f"{para[1]}",
-                    fill="white",
-                    stroke_width=1,
-                    stroke_fill="yellow",
-                    font=font,
-                )
+            
         except:
             pass
         text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
