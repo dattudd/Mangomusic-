@@ -109,11 +109,11 @@ async def gen_thumb(videoid, user_id):
 
         crop_img = Image.open(f"cache/cropped{videoid}.png")
         logo = crop_img.convert("RGBA")
-        logo.thumbnail((385, 385), Image.LANCZOS)
-        width = int((1280 - 380) / 10)
+        logo.thumbnail((450, 450), Image.LANCZOS)
+        width = int((1280 - 200) / 10)
         background = Image.open(f"cache/temp{videoid}.png")
         background.paste(logo, (width + 1, 28), mask=logo)
-        background.paste(x, (1000, 500), mask=x)
+        background.paste(x, (1020, 500), mask=x)
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
@@ -122,27 +122,7 @@ async def gen_thumb(videoid, user_id):
         arial = ImageFont.truetype("AnonX/assets/font2.ttf", 65)
         ImageFont.truetype("AnonX/assets/font.ttf", 30)
         para = textwrap.wrap(title, width=26)
-        try:
-            draw.text(
-                (70, 25),
-                f"𝐒STARTED PLAYING...",
-                fill="white",
-                stroke_width=5,
-                stroke_fill="black",
-                font=arial,
-            )
-            
-        except:
-            pass
-        text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
-        draw.text(
-            ((1280 - 45) / 1.46, 580),
-            f"{duration}",
-            fill="white",
-            stroke_width=2,
-            stroke_fill="black",
-            font=font,
-        )
+    
         try:
             os.remove(f"cache/thumb{videoid}.png")
         except:
