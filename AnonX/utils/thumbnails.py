@@ -79,7 +79,7 @@ async def gen_thumb(videoid, user_id):
         d = np.array(a)
         e = np.dstack((c, d))
         f = Image.fromarray(e)
-        x = f.resize((215, 215))
+        x = f.resize((220, 220))
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
         bg = Image.open(f"AnonX/assets/anonx.png")
@@ -113,7 +113,7 @@ async def gen_thumb(videoid, user_id):
         width = int((1100 - 10) / 20)
         background = Image.open(f"cache/temp{videoid}.png")
         background.paste(logo, (width + 2, 30), mask=logo)
-        background.paste(x, (1017, 440), mask=x)
+        background.paste(x, (1013, 440), mask=x)
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
@@ -182,7 +182,7 @@ async def gen_qthumb(videoid, user_id):
         d = np.array(a)
         e = np.dstack((c, d))
         f = Image.fromarray(e)
-        x = f.resize((215, 215))
+        x = f.resize((220, 220))
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
         bg = Image.open(f"AnonX/assets/anonx.png")
@@ -216,7 +216,7 @@ async def gen_qthumb(videoid, user_id):
         width = int((1100 - 10) / 20)
         background = Image.open(f"cache/temp{videoid}.png")
         background.paste(logo, (width + 2, 30), mask=logo)
-        background.paste(x, (1017, 440), mask=x)
+        background.paste(x, (1012, 440), mask=x)
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
