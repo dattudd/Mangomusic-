@@ -10,11 +10,11 @@
 </p>
 
 <h2 align="center">
-    ──「 ˹Branded 𝐌ᴜsɪ𝐂˼ 」──
+    ──「 ˹mango 𝐌ᴜsɪ𝐂˼ 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/678a9f946024b25bec2e1.jpg">
+  <img src="https://graph.org/file/eac917c820ff0309c3c63.jpg">
 </p>
 
 <p align="center">
