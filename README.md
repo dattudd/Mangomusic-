@@ -18,11 +18,11 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/brandedrajput/Branded_musicbot/stargazers"><img src="https://img.shields.io/github/stars/brandedrajput/Branded_musicbot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/brandedrajput/Branded_musicbot/network/members"> <img src="https://img.shields.io/github/forks/brandedrajput/Branded_musicbot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/brandedrajput/Branded_musicbot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/dattudd/Mangomusic-/stargazers"><img src="https://img.shields.io/github/stars/dattudd/mangomusic-?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/dattudd/Mangomusic-/network/members"> <img src="https://img.shields.io/github/forks/brandedrajput/Branded_musicbot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/dattudd/Mangomusic-/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/brandedrajput/Branded_musicbot/commits/AnonymousX1025"> <img src="https://img.shields.io/github/last-commit/brandedrajput/Branded_musicbot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/dattudd/Mangomusic-/commits/AnonymousX1025"> <img src="https://img.shields.io/github/last-commit/dattudd/mangomusic-?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
@@ -32,13 +32,13 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/itszshivam/zexx"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/dattudd/Mangomusic-"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/brandedrajput/Branded_musicbot/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/dattudd/Mangomusic-/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -50,7 +50,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/brandedrajput/Branded_musicbot && cd Branded Music`
+`git clone https://github.com/dattudd/Mangomusic- && cd mango Music`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
@@ -85,10 +85,10 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <p align="center">
 <a href="https://github.com/pyrogram/pyrogram"> <img src="https://img.shields.io/badge/Pyrogram-black?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
 <a href="https://github.com/pytgcalls/pytgcalls"> <img src="https://img.shields.io/badge/PyTgCalls-black?style=for-the-badge&logo=github" alt="Pytgcalls" /> </a>
-<a href="https://github.com/brandedrajput"> <img src="https://img.shields.io/badge/CallsMusic-black?style=for-the-badge&logo=github" alt="SHIVAM" /> </a>
+<a href="https://github.com/brandedrajput"> <img src="https://img.shields.io/badge/CallsMusic-black?style=for-the-badge&logo=github" alt="chinna" /> </a>
 <a href="https://github.com/AnonymousX1025"> <img src="https://img.shields.io/badge/Anonymous-black?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
 <a href="https://github.com/NotReallyShikhar"> <img src="https://img.shields.io/badge/Shikhar-black?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
 <a href="https://github.com/TheHamkerCat"> <img src="https://img.shields.io/badge/TheHamkerCat-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ARYAN ARYA](https://github.com/aryanabhiarya8) ғᴏʀ [Branded ᴍᴜsɪᴄ](https://github.com/brandedrajput/Branded_musicbot)_ </b>
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [chinna](https://github.com/dattudd) ғᴏʀ [mango ᴍᴜsɪᴄ](https://github.com/dattudd/Mangomusic-)_ </b>
