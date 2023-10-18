@@ -52,7 +52,7 @@ async def init():
     await userbot.start()
     await Anon.start()
     await Anon.decorators()
-    LOGGER("AnonX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️MADE BY ARYAN♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("AnonX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️MADE BY chinna\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
 
