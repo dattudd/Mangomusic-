@@ -23,7 +23,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "chinna", url=f"https://t.me/itschinnoda")
+                        "chinna", url=f"https://t.me/kid_musi")
                 ]
             ]
         ),
@@ -41,7 +41,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "chinna", url=f"https://t.me/itschinnoda")
+                        "chinna", url=f"https://t.me/kid_musi")
                 ]
             ]
         ),
@@ -64,7 +64,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👉𝐆𝐎 𝐇𝐄𝐑𝐄👈", url=f"https://t.me/itschinnoda")
+                        "👉𝐆𝐎 𝐇𝐄𝐑𝐄👈", url=f"https://t.me/kid_musi")
                 ]
             ]
         ),
@@ -82,7 +82,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👉𝐆𝐎 𝐇𝐄𝐑𝐄👈", url=f"https://t.me/itschinnoda")
+                        "👉𝐆𝐎 𝐇𝐄𝐑𝐄👈", url=f"https://t.me/kid_musi")
                 ]
             ]
         ),
@@ -100,7 +100,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👉𝐆𝐎 𝐇𝐄𝐑𝐄👈", url=f"https://t.me/itschinnoda")
+                        "👉𝐆𝐎 𝐇𝐄𝐑𝐄👈", url=f"https://t.me/kid_musi")
                 ]
             ]
         ),
